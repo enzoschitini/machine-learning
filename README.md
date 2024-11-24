@@ -1,8 +1,6 @@
 # Ensemble Techniques
 Os algoritmos de ensemble são técnicas de machine learning que combinam vários modelos base para melhorar o desempenho geral do sistema. A ideia é que, ao agregar as previsões de diferentes modelos, obtém-se uma estimativa mais robusta e precisa em comparação com aquela fornecida por um único modelo.
-
 ![](img/01.png)
-
 Existem diferentes tipos de algoritmos de ensemble, mas os principais são:
 
 - **Bagging (Bootstrap Aggregating)**:
@@ -20,13 +18,13 @@ Existem diferentes tipos de algoritmos de ensemble, mas os principais são:
 - **Blending**:
     - **Princípio**: Similar ao stacking, mas utiliza um conjunto de validação separado para treinar o meta-modelo. Não usa o conjunto de teste na criação do modelo.
     - **Vantagem**: É mais simples de implementar em comparação com o stacking e reduz o risco de overfitting no conjunto de teste.
-### Vantagens dos Algoritmos de Ensemble:
+## Vantagens dos Algoritmos de Ensemble:
 
 - **Melhoria da Precisão**: Ao agregar vários modelos, tende-se a reduzir o erro global.
 - **Robustez**: Os modelos de ensemble são menos suscetíveis ao overfitting em comparação com modelos individuais.
 - **Flexibilidade**: Podem combinar modelos de diferentes tipos, aproveitando suas características complementares.
 
-### Desvantagens:
+## Desvantagens:
 
 - **Complexidade Computacional**: Os algoritmos de ensemble podem ser mais complexos e demandar mais recursos computacionais.
 - **Dificuldade na Interpretabilidade**: Como combinam vários modelos, pode ser difícil interpretar o comportamento geral do sistema.
@@ -87,7 +85,7 @@ O algoritmo de **Boosting** é uma técnica de aprendizado de máquina usada par
 3. **Ponderação dos Erros**: Em cada iteração, os dados que foram classificados erroneamente pelos modelos anteriores recebem um peso maior, para que os modelos subsequentes se concentrem nesses casos difíceis.
 
 Esses princípios permitem que o boosting crie um modelo poderoso, mesmo quando os modelos individuais são relativamente fracos. O processo iterativo e a ênfase em corrigir os erros a cada etapa são o que tornam o boosting eficaz.
-### Algoritmos de Boosting
+## Algoritmos de Boosting
 
 Existem várias variantes de Boosting, incluindo:
 
