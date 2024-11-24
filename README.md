@@ -129,6 +129,7 @@ Aqui está uma tabela que resume as principais aplicações de Random Forest, Ad
 | **AdaBoost** | - Detecção de rostos em imagens **/////** - Classificação de dados biomédicos **/////** - Detecção de objetos em vídeos de vigilância **/////** - Previsão de reincidência de pacientes **/////** - Classificação de imagens de satélite |
 | **Gradient Boosting Machine (GBM)** | - Previsão da taxa de clique para anúncios online **/////** - Análise de sentimentos nas redes sociais **/////** - Previsão da demanda de energia elétrica **/////** - Análise de séries temporais financeiras **/////** - Previsão de comportamentos de usuários online |
 | **XGBoost (Extreme Gradient Boosting)** | - Previsão de preços de ações **/////** - Previsão de churn de clientes **/////** - Classificação de tweets do Twitter **/////** - Previsão da rentabilidade do cliente **/////** - Previsão de sobrevida de pacientes |
+
 Aqui está a tabela que compara as principais diferenças entre Random Forest, AdaBoost, Gradient Boosting Machine (GBM) e XGBoost:
 
 | **Características** | **Random Forest** | **AdaBoost** | **Gradient Boosting Machine (GBM)** | **XGBoost (Extreme Gradient Boosting)** |
@@ -147,6 +148,7 @@ Aqui está a tabela que compara as principais diferenças entre Random Forest, A
 | **Principais Parâmetros de Ajuste** | Número de árvores, profundidade das árvores | Número de modelos, learning rate | Número de modelos, learning rate, profundidade das árvores | Número de modelos, learning rate, profundidade das árvores, parâmetros de regularização |
 | **Principais Vantagens** | Robusto, reduz overfitting, simples de usar | Boas performances com poucos modelos | Alta acurácia, otimizado | Alta acurácia, muito eficiente, regularização avançada |
 | **Principais Desvantagens** | Nem sempre é o mais preciso, interpretabilidade limitada | Sensível a dados ruidosos, requer bom ajuste | Lento para treinar, complexo de ajustar | Complexo de ajustar, requer recursos computacionais |
+
 Esta tabela fornece uma visão geral das principais diferenças entre esses quatro populares algoritmos de aprendizado de máquina ensemble, cada um com seus próprios pontos fortes e fracos, dependendo da aplicação específica.
 
 Aqui estão cinco aplicações reais nas quais o **Random Forest**, **AdaBoost**, **Gradient Boosting Machine (GBM)** e **XGBoost** são preferidos em relação aos outros:
