@@ -1,2 +1,2 @@
-# Machine Learning
-This repository collects machine learning projects and models, with practical examples of classification, regression, clustering and optimization, using libraries such as scikit-learn, TensorFlow, Pandas and others.
+# Ensemble Techniques
+Ensemble algorithms are machine learning techniques that combine multiple underlying models to improve the overall performance of the system. The idea is that by aggregating the predictions of several models, a more robust and accurate prediction is obtained than that provided by a single model.
