@@ -18,6 +18,27 @@ Existem diferentes tipos de algoritmos de ensemble, mas os principais são:
 - **Blending**:
     - **Princípio**: Similar ao stacking, mas utiliza um conjunto de validação separado para treinar o meta-modelo. Não usa o conjunto de teste na criação do modelo.
     - **Vantagem**: É mais simples de implementar em comparação com o stacking e reduz o risco de overfitting no conjunto de teste.
+
+## Timeline dos Algoritmos:
+
+![](https://raw.githubusercontent.com/enzoschitini/machine-learning/refs/heads/Ensemble-Techniques/img/05.png)
+
+### Veja notebooks práticos desses algoritmos:
+
+1. [**Adaboost (1997):**](https://github.com/enzoschitini/machine-learning/blob/Ensemble-Techniques/AdaBoost/AdaBoost.ipynb) Adaptive Boosting é uma implementação prática de boosting, que ajusta iterativamente o peso das observações para focar mais em instâncias difíceis de classificar.
+
+2. [**GBM e Stochastic GBM (1999)**:](https://github.com/enzoschitini/machine-learning/blob/Ensemble-Techniques/Gradient%20Boosting%20Machine/Gradient%20Boosting%20Machine.ipynb) Gradient Boosting Machine (GBM) popularizou o uso do boosting em problemas de aprendizado de máquina. O "Stochastic GBM" introduziu randomização para aumentar a robustez.
+
+3. [**Random Forest (2001)**:](https://github.com/enzoschitini/machine-learning/blob/Ensemble-Techniques/Random%20Forest/Random%20Forest.ipynb) Um dos métodos de ensemble mais conhecidos, combina múltiplas árvores de decisão (criado a partir de amostras bootstrap) para melhorar a generalização, introduzindo aleatoriedade na seleção de features.
+
+4. [**XGBoost (2014-2016)**:](https://github.com/enzoschitini/machine-learning/blob/Ensemble-Techniques/XGBoost%20%E2%80%93%20Extreme%20Gradient%20Boosting/XGBoost%20%E2%80%93%20Extreme%20Gradient%20Boosting.ipynb) Extreme Gradient Boosting é uma implementação eficiente e escalável do GBM, amplamente utilizada devido à sua velocidade e desempenho em competições como o Kaggle.
+
+5. **LightGBM (2017)**: Uma versão otimizada do GBM, projetada para ser rápida e eficiente em memória, especialmente para grandes conjuntos de dados.
+
+6. **CatBoost (2017)**: Algoritmo especializado para lidar com dados categóricos de forma eficiente, reduzindo a necessidade de pré-processamento.
+
+A linha do tempo representa a evolução desses métodos, mostrando como as ideias se acumularam e evoluíram ao longo dos anos para oferecer soluções mais eficientes e poderosas em aprendizado de máquina.
+
 ## Vantagens dos Algoritmos de Ensemble:
 
 - **Melhoria da Precisão**: Ao agregar vários modelos, tende-se a reduzir o erro global.
