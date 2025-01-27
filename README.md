@@ -176,7 +176,3 @@
 ### **9.3 Cursos e Tutoriais**
 
 - Recursos online (como Coursera, YouTube e blogs).
-
----
-
-Com esses tópicos e subtópicos, você terá um material abrangente que atende iniciantes e usuários avançados, com teoria, prática e aplicações reais. Se precisar de ajuda para detalhar algum dos tópicos ou construir exemplos, é só pedir!
