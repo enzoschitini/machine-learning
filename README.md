@@ -1,9 +1,5 @@
 # PCA - Principal Component Analysis
 
-Aqui está uma estrutura detalhada e explicada para criar um material completo sobre **PCA (Principal Component Analysis)**. A ideia é cobrir desde os conceitos básicos até os avançados, tornando-o uma referência para iniciantes e especialistas.
-
----
-
 ## **1. Introdução ao PCA**
 
 ### **1.1 O que é PCA?**
